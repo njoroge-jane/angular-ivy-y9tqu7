@@ -1,0 +1,15 @@
+<h1>{{ title }}</h1>
+
+<section class="todo-form">
+  <input [(ngModel)]="todoItem" type="text" placeholder="to do today...." />
+  <button (click)="updateList()">Save</button>
+</section>
+
+<ul class="todo-list">
+  <li *ngFor="let item of todoItems">{{ item }}</li>
+</ul>
+
+<!-- Input value to be bound to the todoItem -->
+<!-- event bindindg to the button -->
+<!-- Update the todoItems list with the todoItem -->
+<!-- Loop through todo items in ul -->

@@ -1,0 +1,28 @@
+input {
+  font-size: 15px;
+  border-color: sienna;
+  border-radius: 7px;
+  padding: 10px;
+}
+h1 {
+  font-size: 5rem;
+  color: sienna;
+  text-align: center;
+  box-shadow: inset;
+}
+.todo-form {
+  text-align: center;
+}
+button {
+  background-color: sienna;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 15px;
+  border: none;
+}
+ul {
+  list-style: circle;
+}
+body {
+  background-color: khaki;
+}
